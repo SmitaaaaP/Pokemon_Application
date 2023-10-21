@@ -1,0 +1,11 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+}
+#header-icons{
+    margin-right: 5%;
+}
+mat-icon{
+    padding-left: 30px;
+}

@@ -1,0 +1,11 @@
+<section id="card-content">
+    <div id="card-details">
+        <h1>{{card?.pokemonName}}</h1>
+        <h3>
+            <mat-icon color="accent" *ngFor="let star of stars">star</mat-icon>
+        </h3>
+        <p>Category of card : {{card?.cardCategory}}</p>
+        <img src="../../assets/images/{{card?.image}}.png">
+        <p id="p1">No of pieces available : {{card?.availabilityInNos}}</p>
+    </div>
+</section>

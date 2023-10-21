@@ -1,0 +1,25 @@
+#card-content{
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+#card-details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+#card-details img{
+    width: 40%;
+}
+#card-details p{
+    width: 70%;
+    margin-top: 15px;
+    text-align: justify;
+}
+#p1{
+    font-size: large;
+    font-weight: 600;
+}
